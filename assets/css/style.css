@@ -60,12 +60,12 @@ p {
     background-position: center;
 }
 
-.float-left {
+aside float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+aside float-right {
     float: right;
     margin-left: 25px;
 }
@@ -181,6 +181,7 @@ aside section img {
     margin-bottom: 20px;
     font-size: 36px;
 }
+    /* change footer class to footer elem */
 
 footer {
     padding: 30px;
