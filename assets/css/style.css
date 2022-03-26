@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/*remove .hearder class to hearder element*/
 
 header {
     padding: 20px;
@@ -23,8 +24,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/* remove the div to nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -85,13 +86,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*change to just calss remove .benefit div*/
-.benefit {
+
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*.benefit-brand {
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,22 +100,21 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}*/
+}
 
-{ /*changing to class benefit h3 from .benefit-lead h3*/
-.benefit h3 
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*.benefit-brand h3 {
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
-    text-align: center;*/
+    text-align: center;
 }
 
 .benefit-lead img {
