@@ -50,8 +50,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/*from class .hero to id #hero*/
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -78,7 +78,7 @@ main section {
 }
 /*change from benefits to aside*/
 
-aside{
+aside section{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -89,7 +89,7 @@ aside{
     background-color: #2589bd;
 }
 
-aside section{
+aside{
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -109,18 +109,11 @@ aside section h3 {
     text-align: center;
 }*/
 
-aside section img {
+aside section brand {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
 
 aside section img {
     display: block;
