@@ -59,14 +59,6 @@ p {
     background-position: center;
 }
 
-
-
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,7 +68,16 @@ main {
     float: right;
     margin-left: 25px;
 }
-/* i add css fuction to the class items*/
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* i add css fuction to the class items for each search , online and social link 
+to simplify it and remove redundancy*/
 .items {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,16 +86,16 @@ main {
     background-color: #2589bd;
     color: #ffffff;
 }
-
+/* same was doens for these as well*/
 .items img {
     max-height: 200px;
 }
-
 
 .items h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /* change borader calss to aside elements and change
 borader specific to element selection*/
 aside {
